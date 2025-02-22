@@ -1,0 +1,54 @@
+body {
+    font-family: "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #1756b4;
+    color: #333;
+}
+header {
+    background: #50a85e;
+    color: hsl(152, 84%, 31%);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    text-decoration: none;
+    color: #100b52;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container {
+    padding: 50px;
+    background: #66ffc4;
+    border: 5px solid #99b3e4;
+}
+footer {
+    background: #660000;
+    color: #69a756;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.top-banner {
+    display: flex;
+    justify-content: space-between; /* Pushes content to edges */
+    align-items: center; /* Aligns vertically */
+    background-color: #44ce6e;
+    color: white;
+    padding: 15px 20px;
+}
+
+/* Style for icons */
+.icons img {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 15px; /* Adds spacing between icons */
+}
